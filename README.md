@@ -79,10 +79,71 @@ For Hardware:
 ## Implementation
 
 For Software:
+# Screenshots:
+<img width="1700" height="915" alt="Screenshot 2026-09-12 070042" src="https://github.com/user-attachments/assets/f4c4d5c3-aea1-4f84-aca1-722953c435da" />
+(Shows the main physics simulation where the falling chakka (jackfruit) trajectory is reconstructed. The interface displays the object's mass, height, potential energy, velocity, fall time, and the rabbit's predicted collision probability.)
+
+<img width="1650" height="817" alt="Screenshot 2026-09-12 070048" src="https://github.com/user-attachments/assets/d0012516-b1e0-4aba-95fc-845eb91018ee" />
+(Shows the forensic evidence dashboard containing measurements for the chakka, rabbit subject, branch elevation, wind conditions, stem condition, and calculated probabilities.)
+
+<img width="1532" height="912" alt="Screenshot 2026-09-12 070058" src="https://github.com/user-attachments/assets/5fee578d-307d-47da-915a-d5826906d3a2" />
+(Shows the final investigation report. The simulation concludes that the chakka likely fell because of stem failure, impacted the rabbit, and that human interference was not involved.)
+
+
+# Diagrams
+┌──────────────────────┐
+│   Start Investigation │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│ Examine Scene &      │
+│ Identify Objects     │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│ Collect Measurements │
+│ • Mass               │
+│ • Height             │
+│ • Distance           │
+│ • Wind               │
+│ • Reaction Time      │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│ Physics Simulation   │
+│ • Gravity            │
+│ • Fall Time          │
+│ • Velocity           │
+│ • Energy             │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│ Collision Analysis   │
+│ & Rabbit Response    │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│ Evidence Evaluation  │
+│ • Stem Failure       │
+│ • Impact Probability │
+│ • Escape Probability │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│ Final Investigation  │
+│       Report         │
+└──────────────────────┘
+
+
+### Project Demo
+# Video
+
+https://github.com/user-attachments/assets/c672d42e-9026-47eb-b95d-e13eeba5e4bf
+(The demo video demonstrates the complete investigation workflow, including the initial scene, physical measurements, chakka trajectory simulation, rabbit collision analysis, evidence evaluation, and the final conclusion that the incident was a pure accident.)
 
 # Installation
 
-```bash
+bash
 git clone https://github.com/jestinkc/chakka.git
 cd chakka
 npm install
