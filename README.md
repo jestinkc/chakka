@@ -6,7 +6,7 @@
 
 ### Team Members
 - Team Lead: Jestin K C - Mar Baselious Christian College of Engineering, Peermade
-- Member 2: Adharsh P - Mar Baselious Christian College of Engineering, Peermade
+- Member 2: Adarsh P - Mar Baselious Christian College of Engineering, Peermade
 
 ### Project Description
 
